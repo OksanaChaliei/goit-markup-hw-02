@@ -7,7 +7,20 @@ body {
 .header-menu a {
     text-decoration: none;
 }
-
+.header-menu a {
+ color:#2E2F42;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ text-decoration: none;
+}
+.header-manu a:hover {
+color: #404bbf;
+}
+.header-manu a:focus {
+color: #404bbf;
+}
 .header-contacts a:hover {
 color: #404BBF;
 }
@@ -34,20 +47,7 @@ color: #404BBF;
 .studio-text {
     color: #2e2f42;
 }
-.header-menu {
- color:#2E2F42;
- font-weight: 500;
- font-size: 16px;
- line-height: 1.5;
- letter-spacing: 0.02em;
- text-decoration: none;
-}
-.header-manu:hover {
-    color: #404bbf;
-}
-.header-manu:focus {
-    color: #404bbf;
-}
+
 .address {
 font-style: normal;
 }
