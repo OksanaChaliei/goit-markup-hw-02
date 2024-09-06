@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -15,15 +15,21 @@ color: #404BBF;
     color: #404BBF;
     text-decoration: underline;
 }
-.web-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
+.main-logo {
+   font-family: "Raleway", sans-serif;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #4d5ae5;
+   text-decoration: none;
+        }
+    
+    .logo-part {
+        color: #2e2f42;
+        }
+
 
 .studio-text {
     color: #2e2f42;
@@ -70,7 +76,7 @@ font-style: normal;
 .main-button {
     color: #FFFFFF;
     background-color: #4D5AE5;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -88,6 +94,7 @@ background-color: #404BBF;
 /* region Values */
 
 .values-caption {
+    color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -107,6 +114,7 @@ background-color: #404BBF;
     background-color: #F4F4FD;
 }
 .team-title {
+    color: #2e2f42;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -117,11 +125,11 @@ background-color: #404BBF;
     background-color: #FFFFFF;
 }
 .team-caption {
+color: #2e2f42;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.4px;
-
 }
 
 .team-desc {
@@ -135,6 +143,7 @@ letter-spacing: 0.4px;
 /* region Portfolio */
 
 .portfolio-title {
+    color: #2e2f42;
     font-size: 36px;
     font-weight: bold;
     line-height: 1.11;
@@ -144,6 +153,7 @@ letter-spacing: 0.4px;
 }
 
 .portfolio-caption {
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -168,6 +178,12 @@ letter-spacing: 0.4px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    text-decoration: none;
+    /* Видалити підкреслення за замовчуванням для посилання */
+}
+
+.logo-text {
+    color: #f4f4fd;
 }
 
 .studio-text {
