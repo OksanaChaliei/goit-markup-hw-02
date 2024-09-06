@@ -42,7 +42,9 @@ color: #404BBF;
  letter-spacing: 0.02em;
  text-decoration: none;
 }
-.header-manu:hover,
+.header-manu:hover {
+    color: #404bbf;
+}
 .header-manu:focus {
     color: #404bbf;
 }
