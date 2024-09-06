@@ -12,8 +12,8 @@ body {
  letter-spacing: 0.02em;
  text-decoration: none;
 }
-.header-manu:hover,
-.header-manu:focus {
+.header-menu:hover,
+.header-menu:focus {
 color: #404bbf;
 }
 .header-contacts a:hover {
